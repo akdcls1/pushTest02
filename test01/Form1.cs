@@ -15,8 +15,16 @@ namespace test01
         public Form1()
         {
             InitializeComponent();
-            Console.WriteLine("Hello world.");
-            Console.WriteLine("Hello world.");
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+        }
+        public void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world box1");
+        }
+        public void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world box2");
         }
 
     }
