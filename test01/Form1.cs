@@ -16,6 +16,7 @@ namespace test01
         {
             InitializeComponent();
             Console.WriteLine("Hello world.");
+            Console.WriteLine("Hello world.");
         }
 
     }
