@@ -20,11 +20,11 @@ namespace test01
         }
         public void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello world box1");
+            MessageBox.Show("box1");
         }
         public void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello world box2");
+            MessageBox.Show("box2");
         }
 
     }
