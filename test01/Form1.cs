@@ -16,13 +16,13 @@ namespace test01
         {
             InitializeComponent();
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
         }
         public void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("box1");
         }
-        public void button2_Click(object sender, EventArgs e)
+        public void btn2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("box2");
         }
