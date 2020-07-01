@@ -26,6 +26,7 @@ namespace test01
         {
             MessageBox.Show("box2");
             Console.WriteLine("btn1");
+            Console.WriteLine("btn3");
         }
 
     }
