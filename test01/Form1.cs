@@ -15,10 +15,10 @@ namespace test01
         public Form1()
         {
             InitializeComponent();
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
         }
-        public void button1_Click(object sender, EventArgs e)
+        public void btn1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("box1");
         }
