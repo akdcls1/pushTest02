@@ -25,7 +25,7 @@ namespace test01
         public void btn2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("box2");
-            Console.WriteLine("btn0");
+            Console.WriteLine("btn1");
         }
 
     }
